@@ -1,0 +1,21 @@
+{
+  "name": "leave-management-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "db:setup": "node src/config/setup-db.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
