@@ -1,0 +1,2 @@
+Vercel Build Trigger - Latest Commit: b3f988a
+This file forces Vercel to use the latest commit with all fixes.
